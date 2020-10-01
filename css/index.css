@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.judul{
+    text-align: center;
+}
+
+.banner{
+    text-align: center;
+    padding: 15px;
+}
+
+.showcase{
+    display: flex;
+    background-color: darkblue;
+    height: 70vh;
+    
+}
+
+.price-tag{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    float: right;
+    background-color: rgba(52, 286, 87, .75);
+    padding: 5px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.but1{
+    background-color: cyan;
+    color: white;
+    border:black 1px solid;
+    text-decoration: none;
+    width: 15%;
+    display: flex;
+    float: left;
+}
+
+.img1 , .img2 , .img3 {
+    text-align: center;
+}
+
+.jam{
+    display: inline-flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+#txt{
+    width: 100%;
+}
+
+.daf{
+    display: inline-flex;
+    justify-content: center!important;
+    float: right;
+}
+
+.daf h2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.box1, .box2 , .box3{
+    margin-top: 20px;
+    text-align: justify;
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    height: 50vh;
+}
+
+.buttoncon{
+    background-color: #FFFFFF;
+    text-align: center;
+    height: 40px;
+    padding: 10px 20px;
+}
+.button{
+    color: black;
+    border: black 1px solid;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.button:hover{
+    color: darkgray;
+    background-color: darkgreen;
+}
+
+.videocon{
+    background-color: #FFFFFF;
+    text-align: center;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video{
+    background-color: white;
+    display: block;
+    border: black 2px solid;
+    padding: 20px;
+}
